@@ -1,0 +1,23 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+
+config_version=5
+
+[application]
+
+config/name="Soul Tether"
+run/main_scene="res://scenes/main_prototype.tscn"
+config/features=PackedStringArray("4.7", "Forward Plus")
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[layer_names]
+
+2d_physics/layer_1="World_Terrain"
+2d_physics/layer_2="Player_Body"
+2d_physics/layer_3="Enemies_And_Obstacles"
+2d_physics/layer_4="Player_Hurtbox"
+2d_physics/layer_5="Hazard_Hitbox"
